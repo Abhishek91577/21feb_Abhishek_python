@@ -1,0 +1,23 @@
+5) what is the purpose continue statement in python ?
+     
+  The continue statement skips the remaing lines of code inside the loop bring the program control to the beginning of the loop.
+
+     ( for example)     
+                       for i in range(1,6):
+				print("value of I",i)
+			if(i==4):
+			 continue
+			print(i)
+
+
+4) How memory is managed in python?
+      python memory is managed by the python manager, which determines where to put the application data in the memory
+
+when data is no longer use it ,can deleted by the python memory manager
+
+
+13) what are negative indexes and why are they used?
+ negative indexing is used to in pyhon to begin slicing from the end of the string.
+syntax:
+~~~~~~
+arr[start:stop:step]
