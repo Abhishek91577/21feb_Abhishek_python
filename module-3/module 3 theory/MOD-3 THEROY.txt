@@ -1,0 +1,54 @@
+1) what is list?
+	list is collection of elements which are ordered and chageable.
+duplicates elements are allowed in list.
+
+2) differnce between append() and exted()
+  append()=
+  this methods are used to add elements at the end of lis.
+ ~~~~> append(element) adds the given element at the end of list.
+
+extend=
+~~~~~~   this method used to add element at the end of list.
+
+~~~~~> extend(another list) adds the elements of another list at the end of list.
+
+3) what is tuple?
+----> it is collection datatype which is ordered and unchageable.
+----> duplicates elements are allowed.
+-----> tuple used this()symbole.
+
+4) HOW MANY BASIC TYPES OF FUNCTIONS ARE AVAILABLE IN PYTHON?
+	there are 2 types of function in python
+	1) user define 2) bulit -in function
+
+5) HOW CAN YOU PICK A RANDOM ITEM FROM LIST OR TUPLE ?
+	create a tuple and add some dummy data to it
+~~~> generate a random item from the tuple using random.choice()method.
+   (this function returns a random element from the specefied sequence .)
+
+6) HOW CAN YOU PICK  A RANDOM ITEM FROM RANGE?
+ --> using random.randrange() function
+---> using random.randint() function
+---> using random.random() function.
+
+7) HOW WILL YOU SET THE STARTING VALUE IN GENERATING RANDOM NUMBERS?
+	the seed() method is used to intialize the random number generator
+  for example
+~~~~~~~~~~~~~
+import random 
+random.seed(10)
+print(random.random())
+
+
+8) HOW WILL YOU RANDOMIZES THE ITEMS OF A LIST IN PLACE?
+	the shuffle() method randomizes the item of a list in place.
+
+     (for ex):
+	import random
+	list=[20,16,10,5]
+	random.shuffle(list)
+	print(list)
+
+
+9) why are you use zip method?
+	python zip() functions creates an iterator that will aggregate elements from two or more iterables.
