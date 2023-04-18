@@ -1,0 +1,90 @@
+1) WHAT IS FILE FUNCTION IN PYTHON ?WHAT IS KEYWORD TO CREATE AND WRITE FILE
+ANS-	python file object provides methods and attributes to access and manioulate files 
+---> using file objects we can read or write files.
+----> To write an existing file you must add a parameter the open()function.
+       "a"=append-will to the end of the file.
+        "w"=write-will overwrite any existing content.
+
+2)EXPLAIN EXCEPTION HANDLING? WHAT IS AN ERROR IN PYTHON?
+ANS- exceptions are raised when the programing is syntaically correct, but the code results in an error this error does not stop the execution of the program however it changes the 
+flow of the program.
+ERROR: error in python can be of two types
+syantax errors and Exceptions errors are problems in a program due to which the program will stop exection.
+
+3) HOW MANY EXCEPT STATEMENTS CAN TRY-EXCEPT BLOCK HAVE?NAME SOME BULIT IN EXCEPTION CLASSES
+ANS- there has to be at least one except statement in bulit in Exceptions.
+     1)checked Exception 2)unchecked exception
+
+4)WHEN WILL THE ELSE PART OF TRY-EXCEPT-ELSE BE EXECUTED?
+ANS-the else part is executed when no exception occurs.
+
+5)CAN ONE BLOCK OF EXCEPT STATEMENTS HANDLE MULTIPLE EXCEPTION?
+ANS-yes like except type error ,syantax error.
+
+6) WHEN IS THE FINALLY BLOCK EXECUTED?
+ANS-when the try block exits.this ensures that the finally block is executed even if an unexpected exception occurs.
+
+7) WHAT HAPPENS WHEN,,1"==1 IS EXECUTED?
+ANS-it simply evalutes to false and does not raise any exception.
+
+8)HOW DO YOU HANDLE EXCEPTIONS WITH TRY/EXCEPT/FINALLY IN PYTHON?
+ANS- TRY:- the try block lets you test a block of code for errors.
+     Except:-the except block lets you handle the error.
+(EXAMPLE) try:
+            a=int(input("enter a:))
+            b=int(input("enter b:"))
+             print("sum:" ,a+b)
+         except Exception as e:
+             print(e)
+          finally:
+             print("this is finally block.")
+
+9)WHAT ARE OOPS COCEPTS?IS MULTIPLE INHERITANCE SUPPORTED IN PYTHON?
+ANS-(object oriented programing)concepts in python include class object method inheritance polymorphism ,data abstraction and enacapulsution
+--> yes multiple inheritance supported in python.
+
+10)HOW TO DEFINE CLASS IN PYTHON? WHAT IS SELF? GIVE AN EXAMPLE OF PYTHON CLASS
+ANS- python is an object oriented programing language.
+--->Almost everything in python is an object with its properties and methods.
+--->A class is like an object constructor or a "blueprint" for creating objects.
+
+11) WHAT IS SELF?
+ANS- self represents the instance of class.
+--->This handy keyword allows you to Access variables attributes and methods of a defined class in python.
+--->the self parameter doesn't have to be named "self" as you can call it by any other name.
+
+12)WHAT IS INSTANITIATION IN TERMS OF OOP TERMINOLOGY?
+ANS- creating instance of class
+---> instatiation refers to creating an object instance for class.
+
+13)WHAT IS USED CHECK WHEATHER AN OBJECT 0 IS AN INSTANCE OF CLASS A?
+ANS-using isinstance() function we can test whether an object is an instance of the specifed type or class such as int or list.
+
+14)EXPLAIN INHERITANCE IN PYTHON WITH AN EXAMPLE? WHAT IS INIT? OR WHAT IS A CONSTRUCTOR IN PYTHON
+ANS-python supports inheritance it even supports4 multiple inheritance
+
+--->class can inherit from other classes.
+--->A class can inherit attributes and behaviour methods from another class,called the super class 
+(1)single Inheritance
+(2)multilevel Inheritance
+(3)multiple Inheritnce
+
+for example:- 
+class father:
+bal=0
+car=0
+   def getdata(self)
+   self.bal=input("enter your bank balance")
+   self.car=input("Enter car details:")
+class son(father):
+   def printdata(self)
+    print("bank balance:",self.bal)
+    print("car":self.car)
+sn=son
+sn.getdata()
+sn.printdata()
+
+14) WHAT IS RELATIONSHIP APPROPRIATE FOR STUDENT AND PERSON?
+ANS- a student-teacher relationship in the classroom is a postive relationship between the teacher and student in efforts to gain trust and respect from each other.
+
+
